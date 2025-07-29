@@ -13,16 +13,16 @@ const Profile = () => {
         <h3 className="text-5xl text-left pl-[100px] mt-[100px] mb-[-50px] text-[#00abf0]">
           Hello,
         </h3>
-        <h2 className="text-5xl text-left pl-[100px] pt-[80px]">
+        <h2 className="text-5xl text-left pl-[100px] pt-[80px] bg-gradient-to-r from-blue-400 via-purple-400 to-pink-400 bg-clip-text text-transparent">
           I am Kavindu Thilan
         </h2>
-        <h4 className="text-[35px] text-left pl-[100px] pt-[20px] animate-pulse">
+        <h4 className="text-[35px] text-left text-white pl-[100px] pt-[20px] animate-pulse">
           <Typewriter
             options={{
               autoStart: true,
               loop: true,
               delay: 100,
-              strings: ["A FULL STACK DEVELOPER!"],
+              strings: ["A FULL STACK DEVELOPER!!"],
             }}
           />
         </h4>
