@@ -4,6 +4,8 @@
 }
 
 body {
-  background-color: #081b29;
+  background: linear-gradient(to bottom right, #0f172a, #312e81, #0f172a);
   color: #ededed;
+  margin: 0;
+  padding: 0;
 }

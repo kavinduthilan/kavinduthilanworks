@@ -4,6 +4,10 @@ import React from "react";
 import Header from "./components/Header/Header";
 import Career from "./components/Career/Career";
 import Profile from "./components/Profile/Profile";
+import Skill from "./components/Skill/Skill";
+import Contact from "./components/Contact/Contact";
+import Footer from "./components/Footer/Footer";
+import Project from "./components/Project/Project";
 
 function App() {
   return (
@@ -11,9 +15,10 @@ function App() {
       <Header />
       <Profile />
       <Career />
-      {/* <Routes>
-        <Route path="/career" element={<Career />} />
-      </Routes> */}
+      <Skill />
+      <Project />
+      <Contact />
+      <Footer />
     </BrowserRouter>
   );
 }
