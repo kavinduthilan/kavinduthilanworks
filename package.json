@@ -14,7 +14,9 @@
     "lucide-react": "^0.528.0",
     "react": "^19.1.0",
     "react-dom": "^19.1.0",
-    "tailwindcss": "^4.1.11"
+    "react-router-dom": "^7.7.1",
+    "tailwindcss": "^4.1.11",
+    "typewriter-effect": "^2.22.0"
   },
   "devDependencies": {
     "@eslint/js": "^9.30.1",
