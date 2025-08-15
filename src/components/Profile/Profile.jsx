@@ -67,7 +67,7 @@ const Profile = () => {
       </div>
 
       <div>
-        <img className="rounded-[50%]" src={pic} alt="kavindu" />
+        <img className="h-[600px] rounded-[50%]" src={pic} alt="kavindu" />
       </div>
     </div>
   );
