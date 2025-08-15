@@ -127,55 +127,55 @@ const ProjectCard = ({ project }) => {
 
 const Project = () => {
   const projects = [
+    // {
+    //   title: "AI Task Manager",
+    //   category: "Web Application",
+    //   description:
+    //     "Intelligent task management system with AI-driven priority suggestions, automated scheduling, and real-time collaboration features.",
+    //   technologies: ["React", "Node.js", "Python", "TensorFlow", "MongoDB"],
+    //   status: "completed",
+    //   featured: true,
+    //   icon: "🤖",
+    //   githubUrl: "https://github.com/yourusername/ai-task-manager",
+    //   liveUrl: "https://ai-taskmanager.demo.com",
+    //   stats: {
+    //     stars: 234,
+    //     commits: 156,
+    //     users: "2.5K+",
+    //   },
+    // },
+    // {
+    //   title: "E-Commerce Dashboard",
+    //   category: "Analytics Platform",
+    //   description:
+    //     "Real-time analytics dashboard for e-commerce businesses with advanced data visualization and predictive insights.",
+    //   technologies: ["Vue.js", "D3.js", "Python", "FastAPI", "PostgreSQL"],
+    //   status: "completed",
+    //   featured: false,
+    //   icon: "📊",
+    //   githubUrl: "https://github.com/yourusername/ecommerce-dashboard",
+    //   liveUrl: "https://ecommerce-analytics.demo.com",
+    //   previewUrl: "https://preview.ecommerce-analytics.demo.com",
+    //   stats: {
+    //     stars: 187,
+    //     commits: 203,
+    //     users: "1.2K+",
+    //   },
+    // },
     {
-      title: "AI Task Manager",
+      title: "Online Food Ordering Application",
       category: "Web Application",
       description:
-        "Intelligent task management system with AI-driven priority suggestions, automated scheduling, and real-time collaboration features.",
-      technologies: ["React", "Node.js", "Python", "TensorFlow", "MongoDB"],
-      status: "completed",
-      featured: true,
-      icon: "🤖",
-      githubUrl: "https://github.com/yourusername/ai-task-manager",
-      liveUrl: "https://ai-taskmanager.demo.com",
-      stats: {
-        stars: 234,
-        commits: 156,
-        users: "2.5K+",
-      },
-    },
-    {
-      title: "E-Commerce Dashboard",
-      category: "Analytics Platform",
-      description:
-        "Real-time analytics dashboard for e-commerce businesses with advanced data visualization and predictive insights.",
-      technologies: ["Vue.js", "D3.js", "Python", "FastAPI", "PostgreSQL"],
-      status: "completed",
-      featured: false,
-      icon: "📊",
-      githubUrl: "https://github.com/yourusername/ecommerce-dashboard",
-      liveUrl: "https://ecommerce-analytics.demo.com",
-      previewUrl: "https://preview.ecommerce-analytics.demo.com",
-      stats: {
-        stars: 187,
-        commits: 203,
-        users: "1.2K+",
-      },
-    },
-    {
-      title: "Blockchain Voting System",
-      category: "Blockchain",
-      description:
         "Secure, transparent voting platform built on blockchain technology with smart contracts and voter verification.",
-      technologies: ["Solidity", "Web3.js", "React", "Node.js", "IPFS"],
-      status: "in-progress",
+      technologies: ["React", ".NET Core", "MySQL", "Tailwind CSS"],
+      status: "completed",
       featured: true,
       icon: "🗳️",
-      githubUrl: "https://github.com/yourusername/blockchain-voting",
-      stats: {
-        stars: 95,
-        commits: 78,
-      },
+      githubUrl: "https://github.com/kavinduthilan/FoodOrderSystem.git",
+      // stats: {
+      //   stars: 95,
+      //   commits: 78,
+      // },
     },
     {
       title: "Social Media Scheduler",
