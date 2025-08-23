@@ -178,21 +178,21 @@ const Project = () => {
       // },
     },
     {
-      title: "Social Media Scheduler",
-      category: "Automation Tool",
+      title: "Kingfisher Restaurant",
+      category: "Web Application",
       description:
         "Multi-platform social media scheduling and analytics tool with AI-powered optimal posting time suggestions.",
-      technologies: ["React", "Node.js", "MongoDB", "AWS Lambda"],
+      technologies: ["HTML", "JavaScript", "CSS"],
       status: "completed",
       featured: false,
       icon: "📱",
-      githubUrl: "https://github.com/yourusername/social-scheduler",
-      liveUrl: "https://socialscheduler.demo.com",
-      stats: {
-        stars: 312,
-        commits: 298,
-        users: "3.1K+",
-      },
+      githubUrl: "https://github.com/kavinduthilan/restaurant-application.git",
+      // liveUrl: "https://socialscheduler.demo.com",
+      // stats: {
+      //   stars: 312,
+      //   commits: 298,
+      //   users: "3.1K+",
+      // },
     },
     {
       title: "Real-time Chat App",

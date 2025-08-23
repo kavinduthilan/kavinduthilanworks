@@ -31,14 +31,9 @@ const Career = () => {
       location: "Colombo 13, Sri Lanka",
       type: "Full-time",
       status: "current",
-      description:
-        "Leading development of scalable microservices architecture serving 1M+ users. Implementing CI/CD pipelines and mentoring team members.",
-      achievements: [
-        "Reduced system latency by 40% through optimization",
-        "Led team of 5 engineers on critical product features",
-        "Architected new payment processing system",
-        "Implemented automated deployment pipeline",
-      ],
+      // description:
+      //   "Leading development of scalable microservices architecture serving 1M+ users. Implementing CI/CD pipelines and mentoring team members.",
+      achievements: ["Implemented automated deployment pipeline"],
       technologies: [
         "React",
         ".NET",
@@ -60,13 +55,13 @@ const Career = () => {
       location: "Battaramulla, Sri Lanka",
       type: "Full-time",
       status: "past",
-      description:
-        "Created responsive web applications and collaborated with design teams to implement pixel-perfect UI components.",
+      // description:
+      //   "Created responsive web applications and collaborated with design teams to implement pixel-perfect UI components.",
       achievements: [
-        "Delivered 15+ client projects on time",
-        "Increased client satisfaction by 25%",
-        "Implemented design system",
-        "Optimized performance across all projects",
+        "Designed and implemented scalable web modules using React, Angular, NestJS, and MongoDB to meet complex project requirements and ensure optimal performance.",
+        "Developed and maintained secure REST APIs with comprehensive testing protocols using Postman to guarantee reliability and data integrity.",
+        "Contributed to digital transformation initiatives in the insurance sector, specifically developing innovative solutions for Janashakthi PLC's customer-facing platforms.",
+        "Collaborated effectively within cross-functional teams, leveraging GitLab for version control while actively learning best practices and advanced development techniques from senior developers.",
       ],
       technologies: [
         "React",
@@ -194,7 +189,7 @@ const Career = () => {
                           <div className="flex items-center mb-4">
                             <Award className="w-5 h-5 text-yellow-400 mr-2" />
                             <h5 className="text-lg font-semibold text-white">
-                              Key Achievements
+                              Responsibilities Handled
                             </h5>
                           </div>
                           <div className="space-y-3 ml-4">

@@ -28,7 +28,7 @@ const Profile = () => {
         </h4>
         <div className="cv">
           <Link to="contact">
-            <button className="p-5 rounded-[5px] bg-[#081b29] border-2 border-[#00abf0] text-[18px] text-[#00abf0] cursor-pointer mt-10 ml-24 mr-12 hover:bg-[#00abf0] hover:text-[#081b29]">
+            <button className="p-2 rounded-[5px] bg-[#081b29] border-2 border-[#00abf0] text-[18px] text-[#00abf0] cursor-pointer mt-10 ml-24 mr-12 hover:bg-[#00abf0] hover:text-[#081b29]">
               Contact Me
             </button>
           </Link>
