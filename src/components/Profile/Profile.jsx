@@ -32,9 +32,6 @@ const Profile = () => {
               Contact Me
             </a>
           </a>
-          {/* <a href={myCV} download="KavinduThilanCV.pdf">
-            <button className="btn2">Download CV</button>
-          </a> */}
         </div>
 
         <div className="flex ml-24 mt-20 w-full">
