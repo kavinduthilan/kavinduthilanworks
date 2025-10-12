@@ -127,47 +127,12 @@ const ProjectCard = ({ project }) => {
 
 const Project = () => {
   const projects = [
-    // {
-    //   title: "AI Task Manager",
-    //   category: "Web Application",
-    //   description:
-    //     "Intelligent task management system with AI-driven priority suggestions, automated scheduling, and real-time collaboration features.",
-    //   technologies: ["React", "Node.js", "Python", "TensorFlow", "MongoDB"],
-    //   status: "completed",
-    //   featured: true,
-    //   icon: "🤖",
-    //   githubUrl: "https://github.com/yourusername/ai-task-manager",
-    //   liveUrl: "https://ai-taskmanager.demo.com",
-    //   stats: {
-    //     stars: 234,
-    //     commits: 156,
-    //     users: "2.5K+",
-    //   },
-    // },
-    // {
-    //   title: "E-Commerce Dashboard",
-    //   category: "Analytics Platform",
-    //   description:
-    //     "Real-time analytics dashboard for e-commerce businesses with advanced data visualization and predictive insights.",
-    //   technologies: ["Vue.js", "D3.js", "Python", "FastAPI", "PostgreSQL"],
-    //   status: "completed",
-    //   featured: false,
-    //   icon: "📊",
-    //   githubUrl: "https://github.com/yourusername/ecommerce-dashboard",
-    //   liveUrl: "https://ecommerce-analytics.demo.com",
-    //   previewUrl: "https://preview.ecommerce-analytics.demo.com",
-    //   stats: {
-    //     stars: 187,
-    //     commits: 203,
-    //     users: "1.2K+",
-    //   },
-    // },
     {
       title: "Online Food Ordering Application",
       category: "Web Application",
       description:
         "Secure, transparent voting platform built on blockchain technology with smart contracts and voter verification.",
-      technologies: ["React", ".NET Core", "MySQL", "Tailwind CSS"],
+      technologies: ["React",  "Redux", ".NET Core", "Tailwind CSS"],
       status: "completed",
       featured: true,
       icon: "🗳️",
@@ -181,7 +146,7 @@ const Project = () => {
       title: "Kingfisher Restaurant",
       category: "Web Application",
       description:
-        "Multi-platform social media scheduling and analytics tool with AI-powered optimal posting time suggestions.",
+        "A modern web application designed for Kingfisher Restaurant, featuring an intuitive interface for managing menus, online reservations, orders, and customer interactions. The platform streamlines restaurant operations and enhances the dining experience through efficient digital solutions.",
       technologies: ["HTML", "JavaScript", "CSS"],
       status: "completed",
       featured: false,
@@ -195,41 +160,40 @@ const Project = () => {
       // },
     },
     {
-      title: "Real-time Chat App",
-      category: "Communication",
+      title: "Portfolio Website",
+      category: "Web Application",
       description:
         "Modern real-time chat application with end-to-end encryption, file sharing, and video call integration.",
-      technologies: ["React", "Socket.io", "Express", "WebRTC", "Redis"],
-      status: "planned",
+      technologies: ["React", "Tailwind CSS", "EmailJs"],
+      status: "completed",
       featured: false,
       icon: "💬",
-      githubUrl: "https://github.com/yourusername/realtime-chat",
-      stats: {
-        stars: 45,
-        commits: 23,
-      },
+      githubUrl: "https://github.com/kavinduthilan/kavinduthilanworks.git",
+      liveUrl: ""
+      // stats: {
+      //   stars: 45,
+      //   commits: 23,
+      // },
     },
     {
-      title: "Weather Forecast App",
-      category: "Mobile App",
-      description:
-        "Beautiful weather application with location-based forecasts, interactive maps, and weather alerts.",
-      technologies: ["React Native", "TypeScript", "Weather API", "Redux"],
+      title: "ERP System for Rividco Projects (Pvt) Ltd",
+category: "ERP",
+description: "A comprehensive ERP system developed for Rividco Projects (Pvt) Ltd to centralize and automate core business operations. The platform integrates modules for project management, customers and vendors handling , and reporting, enabling real-time data access, improved decision-making, and enhanced operational efficiency.",
+      technologies: ["React", ".NET Core", "Rest API"],
       status: "completed",
       featured: false,
       icon: "🌤️",
-      githubUrl: "https://github.com/yourusername/weather-app",
-      liveUrl: "https://weather-forecast.demo.com",
-      stats: {
-        stars: 89,
-        commits: 67,
-        users: "500+",
-      },
+      githubUrl: "https://github.com/BuddhimaZ/rividco_project_managament_system_frontend.git",
+      // stats: {
+      //   stars: 89,
+      //   commits: 67,
+      //   users: "500+",
+      // },
     },
   ];
 
   return (
-    <div className="min-h-screen p-8">
+    <div className="min-h-screen p-8" id="works">
       <div className="max-w-7xl mx-auto">
         {/* Header */}
         <div className="text-center mb-16">

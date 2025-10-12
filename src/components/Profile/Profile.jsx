@@ -26,26 +26,26 @@ const Profile = () => {
             }}
           />
         </h4>
-        <div className="cv">
-          <Link to="contact">
-            <button className="p-2 rounded-[5px] bg-[#081b29] border-2 border-[#00abf0] text-[18px] text-[#00abf0] cursor-pointer mt-10 ml-24 mr-12 hover:bg-[#00abf0] hover:text-[#081b29]">
+        <div className="mt-5">
+          <a href="#contact">
+            <a className="p-2 rounded-[5px] bg-[#081b29] border-2 border-[#00abf0] text-[18px] text-[#00abf0] cursor-pointer ml-24 mr-12 hover:bg-[#00abf0] hover:text-[#081b29]">
               Contact Me
-            </button>
-          </Link>
+            </a>
+          </a>
           {/* <a href={myCV} download="KavinduThilanCV.pdf">
             <button className="btn2">Download CV</button>
           </a> */}
         </div>
 
         <div className="flex ml-24 mt-20 w-full">
-          <a href="https://www.google.com" rel="noreferrer" target="_blank">
+          <a href="https://www.facebook.com/kavindu.thilan.35/" rel="noreferrer" target="_blank">
             <img
               className="w-[75px] h-[75px] bg-none border-2 border-solid border-[#00abf0] rounded-[50%] bg-[#00abf0] mr-12 hover:bg-[#ededed] hover:border-2 hover:border-solid hover:border-[#ededed]"
               src={fb}
               alt="fb"
             />
           </a>
-          <a href="https://www.google.com" rel="noreferrer" target="_blank">
+          <a href="https://www.instagram.com/kavindu_thilan/" rel="noreferrer" target="_blank">
             <img
               className="w-[75px] h-[75px] bg-none border-2 border-solid border-[#00abf0] rounded-[50%] bg-[#00abf0] mr-12 hover:bg-[#ededed] hover:border-2 hover:border-solid hover:border-[#ededed]"
               src={ig}

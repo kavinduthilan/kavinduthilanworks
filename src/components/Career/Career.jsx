@@ -102,7 +102,7 @@ const Career = () => {
   };
   //bg-gradient-to-br from-slate-900 via-indigo-900 to-slate-900
   return (
-    <div className="min-h-screen  p-8">
+    <div className="min-h-screen  p-8" id="career">
       <div className="max-w-5xl mx-auto">
         {/* Header */}
         <div className="text-center mb-16">

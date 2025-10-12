@@ -5,23 +5,28 @@ const Header = () => {
   return (
     <div className="w-full h-14">
       <ul className="fixed list-none cursor-pointer">
-        <li className="inline pl-[50px] text-[18px]  text-white mb-4 bg-gradient-to-r from-blue-400 via-purple-400 to-pink-400 bg-clip-text text-transparent ">
+        <li className="inline pl-[50px] text-[18px]  text-white mb-4 bg-gradient-to-r from-blue-400 via-purple-400 to-pink-400 bg-clip-text ">
           <Link to="/">Home</Link>
         </li>
-        <li className="inline pl-[50px] text-[18px]  text-white mb-4 bg-gradient-to-r from-blue-400 via-purple-400 to-pink-400 bg-clip-text text-transparent">
-          <Link to="/about">About</Link>
+        <li className="inline pl-[50px] text-[18px]  text-white mb-4 bg-gradient-to-r from-blue-400 via-purple-400 to-pink-400 bg-clip-text">
+          <a href="#career" className="cursor-pointer">
+            Career
+          </a>
         </li>
-        <li className="inline pl-[50px] text-[18px]  text-white mb-4 bg-gradient-to-r from-blue-400 via-purple-400 to-pink-400 bg-clip-text text-transparent">
-          <Link to="/career">Career</Link>
+        <li className="inline pl-[50px] text-[18px]  text-white mb-4 bg-gradient-to-r from-blue-400 via-purple-400 to-pink-400 bg-clip-text">
+          <a href="#skills" className="cursor-pointer">
+            Skills
+          </a>
         </li>
-        <li className="inline pl-[50px] text-[18px]  text-white mb-4 bg-gradient-to-r from-blue-400 via-purple-400 to-pink-400 bg-clip-text text-transparent">
-          <Link to="/skills">Skills</Link>
+        <li className="inline pl-[50px] text-[18px]  text-white mb-4 bg-gradient-to-r from-blue-400 via-purple-400 to-pink-400 bg-clip-text">
+          <a href="#works" className="cursor-pointer">
+            Works
+          </a>
         </li>
-        <li className="inline pl-[50px] text-[18px]  text-white mb-4 bg-gradient-to-r from-blue-400 via-purple-400 to-pink-400 bg-clip-text text-transparent">
-          <Link to="/work">Works</Link>
-        </li>
-        <li className="inline pl-[50px] text-[18px]  text-white mb-4 bg-gradient-to-r from-blue-400 via-purple-400 to-pink-400 bg-clip-text text-transparent">
-          <Link to="/contact">Contact</Link>
+        <li className="inline pl-[50px] text-[18px]  text-white mb-4 bg-gradient-to-r from-blue-400 via-purple-400 to-pink-400 bg-clip-text">
+          <a href="#contact" className="cursor-pointer">
+            Contact
+          </a>
         </li>
       </ul>
     </div>
