@@ -2,9 +2,8 @@ import React from "react";
 import fb from "../../images/facebook.png";
 import ig from "../../images/instagram.png";
 import ln from "../../images/linkedin.png";
-import pic from "../../images/CS.jpeg";
+import pic from "../../images/LOV09312.jpg";
 import Typewriter from "typewriter-effect";
-import { Link } from "react-router-dom";
 
 const Profile = () => {
   return (
@@ -35,14 +34,22 @@ const Profile = () => {
         </div>
 
         <div className="flex ml-24 mt-20 w-full">
-          <a href="https://www.facebook.com/kavindu.thilan.35/" rel="noreferrer" target="_blank">
+          <a
+            href="https://www.facebook.com/kavindu.thilan.35/"
+            rel="noreferrer"
+            target="_blank"
+          >
             <img
               className="w-[75px] h-[75px] bg-none border-2 border-solid border-[#00abf0] rounded-[50%] bg-[#00abf0] mr-12 hover:bg-[#ededed] hover:border-2 hover:border-solid hover:border-[#ededed]"
               src={fb}
               alt="fb"
             />
           </a>
-          <a href="https://www.instagram.com/kavindu_thilan/" rel="noreferrer" target="_blank">
+          <a
+            href="https://www.instagram.com/kavindu_thilan/"
+            rel="noreferrer"
+            target="_blank"
+          >
             <img
               className="w-[75px] h-[75px] bg-none border-2 border-solid border-[#00abf0] rounded-[50%] bg-[#00abf0] mr-12 hover:bg-[#ededed] hover:border-2 hover:border-solid hover:border-[#ededed]"
               src={ig}
@@ -64,7 +71,11 @@ const Profile = () => {
       </div>
 
       <div>
-        <img className="h-[600px] rounded-[50%]" src={pic} alt="kavindu" />
+        <img
+          className="flex h-[600px] rounded-[50%] mx-auto"
+          src={pic}
+          alt="kavindu"
+        />
       </div>
     </div>
   );
