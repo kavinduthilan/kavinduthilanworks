@@ -111,7 +111,7 @@ const Profile = () => {
               sm:w-[320px] sm:h-[320px] 
               md:w-[450px] md:h-[450px] 
               lg:w-[500px] lg:h-[500px] 
-              rounded-full object-cover object-top
+              rounded-full object-center
               border-4 border-[#00abf0] 
               shadow-[0_0_40px_#00abf0aa] 
               hover:scale-105 transition-transform duration-500 cursor-pointer"
